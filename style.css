@@ -1,0 +1,212 @@
+/* Define the style for the navigation bar */
+
+body{
+    /* background: #FF0099;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #493240, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     /* */ 
+
+     background-color: #85FFBD;
+     background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+     
+   
+   
+     /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(236,236,242,1) 100%, rgba(0,212,255,1) 100%); */
+} 
+
+
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #090979;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 25%, rgba(0,212,255,1) 100%);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Define the style for the navigation bar links */
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+    transition: all 0.3s;
+  }
+  
+  /* Define the style for the navigation bar links on hover */
+  .navbar a:hover {
+    transform: translateY(-5px);
+    color: #ccc;
+  }
+  
+  /* Define the style for the navigation bar brand */
+  .navbar h1 {
+    font-size: 30px;
+    margin: 0;
+    color: #fff;
+  }
+
+  /* css for login page */
+/* 
+  .login-container {
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .form-group {
+    margin: 20px 0;
+  }
+  
+  label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #444;
+  }
+   */
+
+   /* code for porfolio websites figma design*/
+
+   .main-section {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .header {
+    margin-bottom: 50px;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .portfolio{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease-in-out;
+  }
+  .portfolio:hover{
+    cursor: pointer;
+    
+    
+
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .grid-item  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  }
+
+  .grid-item:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+    border: 5px solid ;
+    background-color: #00DBDE;
+    border-radius: 5px;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+
+    
+
+
+
+  }
+  
+  .grid-item img {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    margin-top: 3px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease-in-out;
+  }
+  .grid-item img:hover{
+    transform: scale(1.03);
+  }
+
+  /* photo  */
+
+  .circular-photo {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 7px;
+    margin-left: 7px;
+  }
+  .circular-photo:hover{
+    cursor: pointer;
+  }
+
+  /* button */
+
+  #download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2a912e;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  /* .project-title{
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .project-title:hover{
+    transform: scale(1.03);
+    /* transition: transform 0.2s ease-in-out; */
+    /* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+   */ 

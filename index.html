@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        document.getElementById("download-button").addEventListener("click", function(event) {
+  event.preventDefault();
+  var link = document.createElement('a');
+  link.href = 'your-file.pdf';
+  link.download = 'your-file.pdf';
+  link.click();
+});
+
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>  <img class="circular-photo" src="./assets/crop pp.png" alt="Your Photo"></h1>
+        <div>
+          <a href="/homePage.html">Home</a>
+          <a href="#">About</a>
+          <a href="/contact.html">Contact</a>
+        </div>
+      </nav>
+
+
+
+     
+      
+    
+      
+
+<!-- login page -->
+          <!-- <h1>Login</h1>
+       <form action="#">
+           <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+          </div>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+       <div class="login-container"> -->
+
+
+        <!-- code for portfolio websites figma design -->
+        <div class="main-section">
+            <div class="header">
+              <h1 class="portfolio">Portfolio</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="grid">
+              <div class="grid-item">
+                <img src="./assets/crop pp.png" alt="Project Image">
+                <h2 class="project-title">Project Title</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <div class="grid-item">
+                <img src="./assets/crop pp.png" alt="Project Image">
+                <h2 class="project-title">Project Title</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <div class="grid-item">
+                <img src="./assets/crop pp.png" alt="Project Image">
+                <h2  class="project-title">Project Title</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <div class="grid-item">
+                <img src="./assets/crop pp.png" alt="Project Image">
+                <h2 class="project-title">Project Title</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+
+              <div class="grid-item">
+                <img src="./assets/crop pp.png" alt="Project Image">
+                <h2 class="project-title">Project Title</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+
+
+          <a id="download-button" href="#">Download</a>
+
+     
+</body>
+</html>
+  
